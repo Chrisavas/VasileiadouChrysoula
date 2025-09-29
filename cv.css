@@ -211,3 +211,23 @@ footer {
   color: #8f838d;       
 }
 
+
+.container {
+  display: flex;
+  gap: 20px;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-column,
+  .right-column {
+    width: 100%;
+  }
+}
+
+
+
